@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Good morning!"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How may I help you?", "Hey! How can I be of service?"],
+      "context": [""]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["I want to schedule an imaging appointment", "Can I book an X-ray?", "How do I make an MRI appointment?", "I need a CT scan", "How can I book an appointment?", "I have to schedule 1 CT and 2 ultrasounds for my kid", "I need 1 appointment for my son"],
+      "responses": ["Sure! I can help you with that. Please provide me with some extra details.", "Sure thing. Please detail the type of appointment: X-ray, MRI, CT or ultrasound"],
+      "context": [""]
+    },
+    {
+      "tag": "appointment_type",
+      "patterns": ["I need an X-ray", "x ray", "mri", "CT scan","I want an MRI scan", "I require a CT scan", "I need to schedule an echography", "I require an ultrasound"],
+      "responses": ["Understood. Please let me know your preferred date and time for the appointment.", "Perfect. What day would you like the appointment?", "Sure. When are you planning on having the test done?"],
+      "context": ["appointment"]
+    },
+    {
+      "tag": "date_time",
+      "patterns": ["Tomorrow at 3 PM", "Next week on Monday morning", "Can you suggest a suitable time?", "What dates are available?", "Can you tell me the agenda?", "Monday 11 am", "Wednesday afternoon", "Friday evening", "Saturday morning?", "Thurday night", "March", "April", "December 23rd"],
+      "responses": ["Great! I have booked your imaging appointment for the specified date and time.", "Awesome! Your appointment is booked!", "Perfect, I have scheduled your appointment.","Appointment scheduled!","I'm sorry, but that date and time is fully booked. Please let me know another convinient date and time for the appointment"],
+      "context": ["appointment"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the imaging center located?", "Which hospital provides imaging services?", "Where do I have to go?", "How can I get to the clinic?", "Where should I go?", "Can you please give me directions to the institution?"],
+      "responses": ["Our imaging center is located at 55 Fruit St, Boston, MA 02114, USA.", "is located at 55 Fruit St, Boston, MA 02114, USA."],
+      "context": [""]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the imaging center?", "Do you have a phone number?", "Where do I call in case of an emergency?", "Is there a phone I can contact?"],
+      "responses": ["You can contact our imaging center at +1 617-726-2000.", "Don't hesistate to contact us through our phone number +1 617-726-2000.", "For other inquiries please call +1 617-726-2000."],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Thank you", "Goodbye", "Bye", "OK. Thanks!", "That was nice of you", "Thanks for your help", "That was very useful"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask. Goodbye!", "Bye bye! If you have any more questions, feel free to ask.", "Goodbye. Thank you for contacting Massachusetts General Hospital."],
+      "context": [""]
+    }
+  ]
+}
