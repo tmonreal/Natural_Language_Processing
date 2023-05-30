@@ -19,4 +19,7 @@ Este repositorio contiene los desafíos resueltos para la asignatura de NLP de l
 
 - Creación de embeddings de palabras basado en el contexto de anatomía y fisiología humana empleando Keras, scikit-learn, Gensim y Plotly.
 
+### [Desafío 4](https://github.com/tmonreal/Natural_Language_Processing/tree/main/4-NextWordPrediction)
+<img width="706" alt="nextword" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/3247653f-dd45-4374-86b1-a7e5d1c87680">
 
+- Creación de embeddings de palabras basado en el contexto de anatomía y fisiología humana utilizando la capa de Embedding de Keras junto con una LSTM Bidireccional para predeccir la próxima posible palabra.
