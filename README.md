@@ -22,4 +22,4 @@ Este repositorio contiene los desafíos resueltos para la asignatura de NLP de l
 ### [Desafío 4](https://github.com/tmonreal/Natural_Language_Processing/tree/main/4-NextWordPrediction)
 <img width="706" alt="nextword" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/3247653f-dd45-4374-86b1-a7e5d1c87680">
 
-- Creación de embeddings de palabras basado en el contexto de anatomía y fisiología humana utilizando la capa de Embedding de Keras junto con una LSTM Bidireccional para predeccir la próxima posible palabra.
+- Creación de embeddings de palabras basado en el contexto de anatomía y fisiología humana. Este método utiliza la capa de Embedding de Keras en conjunto con una LSTM Bidireccional y una capa densa para predecir la próxima palabra más probable en el contexto dado.
