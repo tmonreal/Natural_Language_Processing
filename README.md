@@ -10,7 +10,7 @@ Este repositorio contiene los desafíos resueltos para la asignatura de NLP de l
 - Notebook introductorio a NLP, en el cual se realiza la vectorización de documentos empleando NumPy.
 
 ### [Desafío 2](https://github.com/tmonreal/Natural_Language_Processing/tree/main/2-HospitalBot)
-<img width="600" alt="hospital logo" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/e1a20336-e3fa-4eb0-ac2f-d5ecb21c2b28">
+<img width="900" alt="hospital logo" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/b634876a-17db-4c31-9f09-54d7ab92a727">
 
 - Desarrollo de un bot simple para programar turnos en un Hospital utilizando TensorFlow y NLTK.
 
