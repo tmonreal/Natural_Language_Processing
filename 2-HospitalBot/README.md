@@ -2,7 +2,8 @@
 
 ## Bot simple para programar turnos en un hospital
 
-<img width="650" alt="hospital logo" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/a0a88617-a981-4373-87a8-ebab20089af6">
+![hospital bot](https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/17271993-73f7-4b48-9324-4eeb7299a4af)
+
 
 En este notebook se implementa un bot simple para programar turnos en un hospital y se tratan los siguientes temas:
 
