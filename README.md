@@ -29,3 +29,8 @@ Este repositorio contiene los desafíos resueltos para la asignatura de NLP de l
 <img width="706" alt="sentiment_analysis" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/e0e76356-b6aa-48ba-8465-364136baaf7a">
 
 - Desarrollo de una DNN que es capaz de predecir la crítica (cantidad de estrellas) de un cliente a partir de su reseña sobre la vestimenta comprada. Esta red utiliza una capa de Embedding de Keras en combinación con capas LSTM bidireccionales, capas densas y capas de dropout. Además, se ha implementado otra red que emplea una capa de Embedding FastText.
+
+### [Desafío 6](https://github.com/tmonreal/Natural_Language_Processing/tree/main/6-ConversationalBot)
+<img width="691" alt="qaBot" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/d009dfd2-1c66-4ac3-9b3d-b41fb76df80e">
+
+- Creación de un bot capaz de responder a preguntas del usuario (Q&A) empleando datos de conversaciones en inglés, utilizando un modelo basado en Seq2Seq con encoder-decoder.
