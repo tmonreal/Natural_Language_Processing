@@ -23,3 +23,9 @@ Este repositorio contiene los desafíos resueltos para la asignatura de NLP de l
 <img width="706" alt="nextword" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/3247653f-dd45-4374-86b1-a7e5d1c87680">
 
 - Creación de embeddings de palabras basado en el contexto de anatomía y fisiología humana. Este método utiliza la capa de Embedding de Keras en conjunto con una LSTM Bidireccional y una capa densa para predecir la próxima palabra más probable en el contexto dado.
+
+
+### [Desafío 5](https://github.com/tmonreal/Natural_Language_Processing/tree/main/5-SentimentAnalysis)
+<img width="706" alt="sentiment_analysis" src="https://github.com/tmonreal/Natural_Language_Processing/assets/84754265/e0e76356-b6aa-48ba-8465-364136baaf7a">
+
+- Desarrollo de una DNN que es capaz de predecir la crítica (cantidad de estrellas) de un cliente a partir de su reseña sobre la vestimenta comprada. Esta red utiliza una capa de Embedding de Keras en combinación con capas LSTM bidireccionales, capas densas y capas de dropout. Además, se ha implementado otra red que emplea una capa de Embedding FastText.
