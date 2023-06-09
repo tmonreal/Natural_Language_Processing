@@ -1,4 +1,6 @@
 # Natural Language Processing
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/tmonreal/Natural_Language_Processing/blob/main/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/tmonreal/Natural_Language_Processing/blob/main/README.md)
 
 Este repositorio contiene los desafíos resueltos para la asignatura de NLP de la Carrera de Especialización en Inteligencia Artificial (CEIA) de la Universidad de Buenos Aires.
 
